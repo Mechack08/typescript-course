@@ -79,12 +79,12 @@ const enum StudentDetails {
   Major = "Business",
 }
 
-let studentID: StudentDetails = StudentDetails.ID;
-let studentName: StudentDetails = StudentDetails.Name;
-let studentMajor: StudentDetails = StudentDetails.Major;
+// let studentID: StudentDetails = StudentDetails.ID;
+// let studentName: StudentDetails = StudentDetails.Name;
+// let studentMajor: StudentDetails = StudentDetails.Major;
 
-console.log(
-  `Student No ${studentID} : ${studentName} has a Major in ${studentMajor}`
-);
+// console.log(
+//   `Student No ${studentID} : ${studentName} has a Major in ${studentMajor}`
+// );
 
 /* ======================= END ======================= */

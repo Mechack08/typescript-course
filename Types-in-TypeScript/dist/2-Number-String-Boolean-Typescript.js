@@ -1,5 +1,19 @@
 "use strict";
-let studentID = 1;
-let studentName = "Florence";
-let studentMajor = "Business";
-console.log(`Student No ${studentID} : ${studentName} has a Major in ${studentMajor}`);
+var ProductNames;
+(function (ProductNames) {
+    ProductNames["Product1"] = "Laptop";
+    ProductNames["Product2"] = "Mouse";
+    ProductNames["Product3"] = "Keyboard";
+})(ProductNames || (ProductNames = {}));
+var ProductIds;
+(function (ProductIds) {
+    ProductIds[ProductIds["Laptop"] = 1] = "Laptop";
+    ProductIds[ProductIds["Mouse"] = 2] = "Mouse";
+    ProductIds[ProductIds["Keyboard"] = 3] = "Keyboard";
+})(ProductIds || (ProductIds = {}));
+var FavoriteProduct;
+(function (FavoriteProduct) {
+    FavoriteProduct[FavoriteProduct["Id"] = 1] = "Id";
+    FavoriteProduct["Name"] = "Laptop";
+})(FavoriteProduct || (FavoriteProduct = {}));
+console.log(`My favorite product is ${FavoriteProduct.Name} which has an id of ${FavoriteProduct.Id}`);
