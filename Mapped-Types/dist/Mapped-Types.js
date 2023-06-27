@@ -1,9 +1,12 @@
 "use strict";
-function getCoursesInfo(course) {
-    return course;
-}
-let courses = getCoursesInfo({
-    JS: { name: "JS", price: 19.99 },
-    TS: { name: "TS", price: 9.99 },
-});
-console.log(courses);
+const onlineCourse = {
+    name: "TS",
+    price: 29.99,
+    rating: 4.7,
+    sales: 120,
+};
+const inPersoneCourse = {
+    name: "Bigginer dev",
+};
+console.log(onlineCourse);
+console.log(inPersoneCourse);
