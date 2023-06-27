@@ -1,0 +1,15 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node node_modules/esmodules-dev-server"
+  },
+  "author": "8pro",
+  "license": "ISC",
+  "devDependencies": {
+    "esmodules-dev-server": "^0.0.4",
+    "typescript": "^5.1.3"
+  }
+}
